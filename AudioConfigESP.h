@@ -12,7 +12,7 @@
 
 //******* BEGIN: These are the defines you may want to change. Best not to touch anything outside this range. ************/
 #define ESP_AUDIO_OUT_MODE PDM_VIA_I2S
-#define PDM_RESOLUTION 16   // 1 corresponds to 32 PDM clocks per sample, 2 corresponds to 64 PDM clocks, etc. (and at some level you're going hit the hardware limits)
+#define PDM_RESOLUTION 8   // 1 corresponds to 32 PDM clocks per sample, 2 corresponds to 64 PDM clocks, etc. (and at some level you're going hit the hardware limits)
 //******* END: These are the defines you may want to change. Best not to touch anything outside this range. ************/
 
 #if (ESP_AUDIO_OUT_MODE == EXTERNAL_DAC_VIA_I2S)
